@@ -1,2 +1,2 @@
 # jareksedy.github.io
-Personal Website
+Jarek Šedý's personal website. Under construction.
