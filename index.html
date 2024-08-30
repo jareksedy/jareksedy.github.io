@@ -3,9 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jarek Šedý. Personal website.</title>
+    <title>Yaroslav Sedyshev - iOS Developer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #2d2d2d;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .skills, .projects {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
-<code>Personal website of Jarek Šedý (Yaroslav Sedyshev). This website is under construction.</code>
+
+    <div class="container">
+        <img class="profile-pic" src="https://avatars.githubusercontent.com/u/82605526?s=400&u=a5dd28d4ba088af8257b70f92e40f972db1cf3c9&v=4" alt="Profile Picture">
+        <h1>Yaroslav Sedyshev</h1>
+        <p>iOS Developer | Swift Enthusiast | Open Source Contributor</p>
+        <p>Email: <a href="mailto:jareksedy@icloud.com">jareksedy@icloud.com</a></p>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Swift, UIKit & SwiftUI</li>
+                <li>SwiftData & Core Data</li>
+                <li>ARKit, Vision, CoreML</li>
+                <li>Network Programming</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/jareksedy/Geezmo" target="_blank">Geezmo</a> — a remote control app for LG Smart TVs.</li>
+                <li><a href="https://github.com/jareksedy/WebOSClient" target="_blank">WebOSClient</a> — a Swift library for webOS Smart TVs.</li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <h2>Connect</h2>
+            <p>
+                <a href="https://github.com/jareksedy" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/ярослав-седышев-84987a243/" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+
 </body>
 </html>
